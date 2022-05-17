@@ -3,11 +3,14 @@
 NAME : KAVINKUMAR.S <br>
 USER NAME : KAVINKUMAR <br>
 EMAIL : kavinkumars218@gmail.com <br>
+team collabrate
+ 
+ Name : Vetrivel J
 
- Name : Vetrivel J <br>
- User Name : VetrivelJaganathan <br>
- Email id : vetriveljaganathan5125@gmail.com
+ Dep : CCE
+
+ Roll no : 20cc042
 
  Name : Selvanayakam S <br> 
- Dep : EEE <br>
- Roll no : 20EE025 <br>
+ user name : Selvanayakam21<br>
+ mail id : selvanayagam.s2020eee@sece.ac.in<br>
