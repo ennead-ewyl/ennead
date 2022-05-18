@@ -1,0 +1,22 @@
+h1{
+    background-color:brown;
+    color: ghostwhite;
+    text-align: center;
+}
+#par {
+    background-color: aqua;
+
+}
+.change{
+    color: crimson;
+}
+h1{
+    padding-left: 100px;
+
+}
+#par{
+    padding-bottom: 70px;
+    padding-top: 10px;
+    margin-top: 30;
+    
+}
