@@ -1,0 +1,35 @@
+#bg1 {
+    background-color: rgb(43, 55, 80);
+}
+
+#heading1 {
+    color: rgb(135, 143, 194);
+    text-align: center;
+}
+
+#imgcar {
+    margin-left: 70px;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+#para1 {
+    font-size: large;
+    color: white;
+    background-image: url('bcimg.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    width: 45%;
+    margin-left: 725px;
+    margin-top: -400px;
+}
+
+#heading2 {
+    color: wheat;
+    background-color: rgb(69, 67, 65);
+    width: 400px;
+    text-align: center;
+    margin-left: 55%;
+    border-radius: 6px;
+}

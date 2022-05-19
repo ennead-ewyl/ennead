@@ -1,0 +1,15 @@
+#f1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-right: 500px;
+    margin-top: 50px;
+}
+#f2{
+    color: blue;
+    padding-left: 500px;
+}
+.para{
+    background-color: azure;
+    color: navy;
+}
