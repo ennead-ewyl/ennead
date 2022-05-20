@@ -11,7 +11,7 @@
     margin-left: 70px;
     height: 400px;
     width: 600px;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 #para1 {
@@ -19,10 +19,11 @@
     color: white;
     background-image: url('bcimg.jpg');
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 25px;
     width: 45%;
     margin-left: 725px;
     margin-top: -400px;
+    padding:25px;
 }
 
 #heading2 {
