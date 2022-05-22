@@ -1,0 +1,12 @@
+#bg {
+    background-color: rgb(222, 154, 70);
+}
+#heading1 {
+    text-align: center;
+}
+
+#image1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
