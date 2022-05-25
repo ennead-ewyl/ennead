@@ -1,8 +1,10 @@
-#bg
- {
-    background-color:cornflowerblue
+img{
+    width: 700px;
 }
-#img
-{
-    border-radius: 50%;
+#from-search{
+    width: 400px;
+    top: 20px;
+    margin-top: 20px;
+    line-height: 32px;
+    padding: 20px 10px;
 }
