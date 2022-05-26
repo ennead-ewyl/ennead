@@ -1,0 +1,40 @@
+label{
+    font-size: 16px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+}
+
+.place{
+    font-size: 16px;
+    display: flex;
+    margin-left: 130px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+.login{
+    text-align: center;
+    margin-top: 20%;
+    background-color:rgba(77, 184, 152, 0.864);
+}
+.back{
+    
+    width: 500px;
+    margin-left: 600px;
+}
+.ref1{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-left: 350px;
+}
+.ref1:hover{
+    background-color: yellowgreen;
+}.remain{
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.total{
+    border: 2px solid black;
+}
