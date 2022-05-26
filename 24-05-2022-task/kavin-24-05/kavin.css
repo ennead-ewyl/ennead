@@ -1,0 +1,16 @@
+.logo{
+    width: 70px;
+    height: 70px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+}
+.options ul li{
+    display: inline-block;
+    align-items: center;
+    
+}
