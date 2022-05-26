@@ -1,0 +1,21 @@
+*{
+    margin: 15% 50%;
+}
+.user{
+    
+}
+.log_page{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#user{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+#pass{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.login{
+    margin-left: 100px;
+}
