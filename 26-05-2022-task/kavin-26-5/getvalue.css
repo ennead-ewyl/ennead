@@ -1,0 +1,36 @@
+.main{
+    background: rgb(245, 94, 94);
+}
+.details{
+    margin-left: 38%;
+    margin-right: 39%;
+    margin-top: 240px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+.title{
+    color: whitesmoke;
+    margin-left: 110px;
+}
+.user{
+    margin-left: 20px;
+}
+.pass{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#username{
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#password{
+    width: 200px;
+    margin-left: 14px;
+    border-radius: 20px;
+}
+.but{
+    margin-top: 20px;
+    margin-left: 140px;
+
+}

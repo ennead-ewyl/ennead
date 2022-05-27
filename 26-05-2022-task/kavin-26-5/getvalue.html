@@ -1,23 +1,29 @@
-<html>
+<html class="main">
     <head>
         <title>login page</title>
         <link rel="stylesheet" href="getvalue.css">
         <script src="getvalue.js"></script>
     </head>
     <body>
+    <div class="details">        
     <div class="title">
-        Login Page
+        <h1>Log in</h1>
     </div>
     <div class="getDetails">
         <form>
-            Username:
-            <input type="text" placeholder="Enter your username" id="username"><br>
-            Password:
-            <input type="password" placeholder="Enter your password" id="password"><br>
-            <button type="button" onclick="getValue()">Login</button>
+            <div class="user">
+                Username:
+                <input type="text" placeholder="Enter your username" id="username"><br>
+            </div>
+            <div class="pass">
+                Password:
+                <input type="password" placeholder="Enter your password" id="password"><br>
+            </div>
+            <button type="button" onclick="getValue()" class="but">Login</button>
         </form>
         <span id="printValue"></span><br>
         <span id="printValue1"></span>
     </div>
+</div>
 </body>
 </html>

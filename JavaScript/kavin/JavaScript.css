@@ -1,0 +1,105 @@
+.leftside{
+    margin-right: 50%;
+    background-color: antiquewhite;
+    height: 100%;
+}
+.rightside{
+    margin-left: 50%;
+    background-color: aqua;
+    margin-top: -717px;
+    height: 100%;
+}
+.title{
+    margin-left: 200px;
+}
+.mainblock{
+    margin-left: 180px;
+}
+.name1{
+    margin-top: 20px;
+}
+#name{
+    margin-left: 78px;
+}
+.rollno1{
+    margin-top: 20px;
+}
+#rollno{
+    margin-left: 65px;
+}
+.dob1{
+    margin-top: 20px;
+}
+#dob{
+    margin-left: 82px;
+}
+.bloodgroup1{
+    margin-top: 20px;
+}
+#bloodgroup{
+    margin-left: 32px;
+}
+.phone1{
+    margin-top: 20px;
+}
+#phone{
+    margin-left: 20px;
+}
+.email1{
+    margin-top: 20px;
+}
+#email{
+    margin-left: 78px;
+}
+.dep1{
+    margin-top: 20px;
+}
+#dep{
+    margin-left: 41px;
+}
+.year1{
+    margin-top: 20px;
+}
+#year{
+    margin-left: 87px;
+}
+.sem1{
+    margin-top: 20px;
+}
+#sem{
+    margin-left: 58px;
+}
+.but{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#heading{
+    margin-left: 100px;
+}
+#getName1{
+    margin-left: 200px;
+}
+#getRollno1{
+    margin-left: 200px;
+}
+#getDob1{
+    margin-left: 200px;
+}
+#getBg1{
+    margin-left: 200px;
+}
+#getPhone1{
+    margin-left: 200px;
+}
+#getEmail1{
+    margin-left: 200px;
+}
+#getDep1{
+    margin-left: 200px;
+}
+#getYear1{
+    margin-left: 200px;
+}
+#getSem1{
+    margin-left: 200px;
+}
