@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="guna.css">
+    <link rel="javascript" href="guna.js">
+</head>
+<body>
+      <section>
+          <div class="container">
+              <div class="user singinBx">
+                  <div class="imgBx"><img src="C:\EWYL-ennead\ennead\images\pexels-photo-11674758.webp"></div>
+                  <div class="formBx">
+                      <form>
+                          <h1>Sign In</h1>
+                          <input type="text" name="" placeholder="Username">
+                          <input type="password" name="" placeholder="password">
+                          <input type="submit" name="" value="Login">
+                          <p class="Sign Up"> Don't have an account ? Sign Up</a></p>
+                      </form>
+                  </div>
+              </div>
+              <div class="user singupBx">
+                <div class="formBx">
+                    <form>
+                        <h1>Create an account</h1>
+                        <input type="text" name="" placeholder="Username">
+                        <input type="email" name="" placeholder="Email Address">
+                        <input type="password" name="" placeholder="create password">
+                        <input type="password" name="" placeholder="Confirm password">
+                        <input type="submit" name="" value="Login">
+                        <p class="Sign Up"> Already have an account ? <a href="a" onclick="toggleForm();"> Sign in</a></p>
+                    </form>
+                </div>
+                <div class="imgBx"><img src="C:\EWYL-ennead\ennead\images\images (7).jpg"></div>
+            </div>
+          </div>
+      </section>
+      <script type="text/javascript">
+          function toggleform(){
+              var container=document.querySelector('.container')
+              container.classList.toggle('active')
+          }
+
+      </script>
+</body>
+</html>
