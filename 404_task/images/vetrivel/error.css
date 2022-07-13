@@ -1,24 +1,17 @@
-.content
-{
-    margin-left: 50%;
-    margin-top: -300px;
-  
-}
-.topic
-{
-    padding-bottom: 5%;
-}
-.button
-{
-    margin-left: 70%;
-    padding-top: 5%;
-}
-footer
-{
-    margin-left: 50%;
-}
-.imgs
-{
-    height: 50%;
+img{
     width: 500px;
+}
+button.buton.hover{
+    color: yellowgreen;
+    box-shadow: 1px 1px 12px 1px red;
+}
+@media (max-width : 800px) {
+    .content{
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .img{
+        width: 200px;
+    }
+    
 }
