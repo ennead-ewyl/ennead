@@ -1,17 +1,40 @@
 img{
-    width: 500px;
+    width: 600px;
 }
-button.buton.hover{
-    color: yellowgreen;
-    box-shadow: 1px 1px 12px 1px red;
+
+button:hover {
+    color: rgb(39, 182, 11);
+    box-shadow: 1px 1px 12px 1px rgb(196, 149, 21);
+} 
+button {
+    border: 2px solid greenyellow;
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
 }
-@media (max-width : 800px) {
-    .content{
-        font-size: 14px;
+.total{
+    display: flex;
+    align-items: center;
+}
+.content {
+    font-size: 24px;
+}
+
+@media (min-width:20px) and (max-width:760px){
+    img{
+        width: 300px;
+    }
+    .total
+     {
         flex-direction: column;
     }
-    .img{
-        width: 200px;
+    .content{
+        font-size: 16px;
+        margin-left: 50px;
+        align-content: center;
     }
-    
+    button {
+        align-items: center;
+    }
 }
