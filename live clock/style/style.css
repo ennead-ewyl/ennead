@@ -43,12 +43,10 @@ span{
    background-color: green;
    padding-bottom: -30px;
    position: absolute;
-  text-align:justify;
+  text-align:center;
   margin-top: 15px;
-  
-   
-  
-   
+  font-style: italic;  
+  font-weight:900;
 }
 
 
