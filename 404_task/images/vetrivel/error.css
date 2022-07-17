@@ -21,7 +21,7 @@ button {
     font-size: 24px;
 }
 
-@media (min-width:20px) and (max-width:760px){
+@media screen and (min-width:20px) and (max-width:760px){
     img{
         width: 300px;
     }
