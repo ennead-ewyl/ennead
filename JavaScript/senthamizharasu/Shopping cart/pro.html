@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Products | Comfy</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+      <link rel="stylesheet" href="./CSS/home.css">
+    </head>
+    <body>
+      <nav class="navbar page">
+        <div class="nav-center">
+          <div>
+            <button class="toggle-nav">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+              <li>
+                <a href="./home.html" class="nav-link">
+                  home
+                </a>
+              </li>
+              <li>
+                <a href="./pro.html" class="nav-link">
+                  products
+                </a>
+              </li>
+              <li>
+                <a href="./info.html" class="nav-link">
+                  about
+                </a>
+              </li>
+            </ul>
+          </div>
+          <img src="./images/logo.svg" class="nav-logo" alt="logo">
+          <div class="toggle-container">
+            <button class="toggle-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <span class="cart-item-count">0</span>
+          </div>
+        </div>
+      </nav>
+      <section class="page-hero">
+        <div class="section-center">
+          <h3 class="page-hero-title">Home / Products</h3>
+        </div>
+      </section>
+      <div class="sidebar-overlay">
+        <aside class="sidebar">
+          <button class="sidebar-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="sidebar-links">
+            <li>
+              <a href="./home.html" class="sidebar-link">
+                <i class="fas fa-home fa-fw"></i>
+                home
+              </a>
+            </li>
+            <li>
+              <a href="./pro.html" class="sidebar-link">
+                <i class="fas fa-couch fa-fw"></i>
+                products
+              </a>
+            </li>
+            <li>
+              <a href="./info.html" class="sidebar-link">
+                <i class="fas fa-book fa-fw"></i>
+                about
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <div class="cart-overlay">
+        <aside class="cart">
+          <button class="cart-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <header>
+            <h3 class="text-slanted">your bag</h3>
+          </header>
+          <div class="cart-items"></div>
+          <footer>
+            <h3 class="cart-total text-slanted">Total : $0.00 </h3>
+            <button class="cart-checkout btn">checkout</button>
+          </footer>
+        </aside>
+      </div>
+      <section class="products">
+        <div class="filters">
+          <div class="filters-container">
+            <form class="input-form">
+              <input type="text" class="search-input" placeholder="search...">
+            </form>
+            <h4>Company</h4>
+            <article class="companies"> <button class="company-btn">all</button> <button class="company-btn">ikea</button> <button class="company-btn">marcos</button> <button class="company-btn">caressa</button> <button class="company-btn">liddy</button></article>
+            <h4>Price</h4>
+            <form class="price-form">
+              <input type="range" class="price-filter" min="0" value="50" max="80">
+            </form>
+            <p class="price-value">Value : $80</p>
+          </div>
+        </div>
+        <!-- products -->
+        <div class="products-container"> <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/d86e13eec1b200e2b21282b99a9382be/6d92321b?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=2db65a64c9dce165" class="product-img img" alt="high-back bench">
+              <div class="product-icons">
+                <a href="pro.html?id=rec43w3ipXvP28vog" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="rec43w3ipXvP28vog">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">high-back bench</p>
+              <h4 class="product-price">$9.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/ecc03714fd1ff14f50d98834615da483/30525671?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=f9458f8ef77dfcdb" class="product-img img" alt="albany table">
+              <div class="product-icons">
+                <a href="pro.html?id=rec4f2RIftFCb7aHh" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="rec4f2RIftFCb7aHh">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">albany table</p>
+              <h4 class="product-price">$79.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/ececf357189e0a6506cdb45152271a5c/e0407792?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=803ca66229da757e" class="product-img img" alt="accent chair">
+              <div class="product-icons">
+                <a href="pro.html?id=rec8kkCmSiMkbkiko" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="rec8kkCmSiMkbkiko">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">accent chair</p>
+              <h4 class="product-price">$25.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/13b8798ce604dab29656905f94461083/2fcbbbba?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=ef99672f2447ec49" class="product-img img" alt="wooden table">
+              <div class="product-icons">
+                <a href="pro.html?id=recBohCqQsot4Q4II" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recBohCqQsot4Q4II">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">wooden table</p>
+              <h4 class="product-price">$45.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/292e8c59ea4278c67509f457ed713c9e/dbcee29d?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=a9f20e96c007041a" class="product-img img" alt="dining table">
+              <div class="product-icons">
+                <a href="pro.html?id=recDG1JRZnbpRHpoy" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recDG1JRZnbpRHpoy">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">dining table</p>
+              <h4 class="product-price">$6.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/7ebbffdd8e9a1b0a6ecabf8765a01a93/91111f2f?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=baac09dc47c70a17" class="product-img img" alt="sofa set">
+              <div class="product-icons">
+                <a href="pro.html?id=recNWGyP7kjFhSqw3" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recNWGyP7kjFhSqw3">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">sofa set</p>
+              <h4 class="product-price">$69.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/bd412f9b69724bf7cb63542c9d72cc19/70f9bf4a?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=8fb43164a3bcc26d" class="product-img img" alt="modern bookshelf">
+              <div class="product-icons">
+                <a href="pro.html?id=recZEougL5bbY4AEx" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recZEougL5bbY4AEx">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">modern bookshelf</p>
+              <h4 class="product-price">$8.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/a089f9304b965724c0e6828c96dd1a53/cf460909?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=839ac7392cbf3d58" class="product-img img" alt="emperor bed">
+              <div class="product-icons">
+                <a href="pro.html?id=recjMK1jgTb2ld7sv" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recjMK1jgTb2ld7sv">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">emperor bed</p>
+              <h4 class="product-price">$21.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/ee08b908ae61c8241f56130eedefac0a/22e0d8df?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=b1a0133fe8fabb2a" class="product-img img" alt="utopia sofa">
+              <div class="product-icons">
+                <a href="pro.html?id=recmg2a1ctaEJNZhu" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recmg2a1ctaEJNZhu">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">utopia sofa</p>
+              <h4 class="product-price">$39.95</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/37c101731d977a9ff9c98530185b77e0/078958cd?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=789c5be6719f4b4c" class="product-img img" alt="entertainment center">
+              <div class="product-icons">
+                <a href="pro.html?id=recvKMNR3YFw0bEt3" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recvKMNR3YFw0bEt3">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">entertainment center</p>
+              <h4 class="product-price">$29.98</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/0f159a8ff208a1ca0683359d0bbcb204/dfa5455c?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=e1ff80e3b09429ed" class="product-img img" alt="albany sectional">
+              <div class="product-icons">
+                <a href="pro.html?id=recxaXFy5IW539sgM" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recxaXFy5IW539sgM">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">albany sectional</p>
+              <h4 class="product-price">$10.99</h4>
+            </footer>
+          </article>  <article class="product">
+            <div class="product-container">
+              <img src="https://dl.airtable.com/.attachmentThumbnails/0a5ef48cda665e63b6417fefb9998fff/668e4a7e?ts=1658011573&amp;userId=usrQMwWEPx18KgLcP&amp;cs=2ac2258901d57918" class="product-img img" alt="leather sofa">
+              <div class="product-icons">
+                <a href="product.html?id=recyqtRglGNGtO4Q5" class="product-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+                <button class="product-cart-btn product-icon" data-id="recyqtRglGNGtO4Q5">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <p class="product-name">leather sofa</p>
+              <h4 class="product-price">$9.99</h4>
+            </footer>
+          </article> </div>
+      </section>
+      <!-- page loading -->
+      <div class="page-loading" style="display: none;">
+        <h2>Loading...</h2>
+      </div>
+      <script type="module" src="./JS/index.js"></script>
+  </body>
+</html>
