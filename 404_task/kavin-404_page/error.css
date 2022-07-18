@@ -1,0 +1,50 @@
+img.main-pic {
+    width: 600px;
+}
+
+button.butt:hover {
+    color: brown;
+    box-shadow: 1px 1px 12px 1px green;
+} 
+button {
+    border: 1px solid red;
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.content {
+    font-size: 24px;
+}
+
+@media (min-width:320px) and (max-width:479px){
+    img.main-pic{
+        width: 300px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .content{
+        font-size: 16px;
+        margin-left: 50px;
+        align-content: center;
+    }
+    button {
+        align-items: center;
+    }
+}
+
+
+/*
+1440 to 1024
+1024 to 768
+767to 480
+479 320
+*/
